@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Gilroy';
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 17, 17);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+#main h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#main h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 120px;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+}
+#main h1:nth-child(2){
+    margin-top: 130px;
+}
+#main h1:nth-child(3){
+    text-align: center;
+}
+#main h1:nth-child(4){
+    text-align: center;
+}
+#main img{
+    height: 400px;
+    position: absolute;
+    object-fit: contain;
+    top: 12%;
+    left: 50%;
+}
+#img1{
+    rotate: 20deg;
+}
+#img2{
+    rotate: 10deg;
+}
+#footer{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 60px;
+}
+#footer h3{
+    font-weight: 500;
+    text-align: center;
+    padding-left: 30px;
+    /* justify-items: center; */
+}
+#footer-part2 h3{
+    line-height: 20px;
+    font-weight: 500;
+    padding-left: 500px;
+}
